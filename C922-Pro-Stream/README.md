@@ -1,3 +1,5 @@
 # C922 Pro Stream
 
-- [ ] Twitch 24/7 - OBS setup
+- [ ] VLC setup
+- [ ] Local stream
+- [ ] Online stream
