@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  # https://github.com/prusa3d/Prusa-Link
+  prusa-link:
+    container_name: Prusa-Link
+    image: prusalink:latest
+    restart: always
+    ports:
+      - "8080:8080"
+    devices:
+      # Prusa i3 MK3S+
+      - /dev/ttyACM0:/dev/ttyACM0
+      # C922 Pro Stream camera
+      - /dev/video0:/dev/video0
