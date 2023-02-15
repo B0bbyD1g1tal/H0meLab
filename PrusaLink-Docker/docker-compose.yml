@@ -1,10 +1,10 @@
-version: "3.7"
+version: "3"
 
 services:
   # https://github.com/prusa3d/Prusa-Link
   prusa-link:
     container_name: Prusa-Link
-    image: prusalink:latest
+    image: prusa-link:latest
     restart: always
     ports:
       - "8080:8080"
