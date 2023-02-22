@@ -2,10 +2,10 @@
 
 ```bash
 # Build Image
-docker build --no-cache -t prusalink .
+docker build --no-cache -t prusa-link .
 ```
 
 ```bash
 # Run container
-docker run -ti -p 8080:8080 prusalink
+docker run -d -p 8080:8080 prusa-link
 ```

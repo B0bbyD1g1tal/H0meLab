@@ -1,8 +1,8 @@
 # Prusa i3 MK3S+
 - [X] Order shipped
-- [ ] Prusa i3 MK3S+ Full Assembly
-- [ ] Firmware build and update
-- [ ] Calibration and testing
+- [X] Prusa i3 MK3S+ Full Assembly
+- [X] Firmware build and update
+- [X] Calibration and testing
 - [ ] Print PETG Parts in other (from orange) color
 - [ ] [H0meLab](../H0meLab)
 - [ ] [C922 Pro Stream](../C922-Pro-Stream)

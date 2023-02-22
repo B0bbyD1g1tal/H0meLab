@@ -17,14 +17,14 @@ Patriot M.2 P300 128GB [Specification](https://www.patriotmemory.com/products/p3
 
 - [ ] Provisioning Ubuntu with [cloudinit](https://cloudinit.readthedocs.io/en/latest/reference/examples.html)
   - [ ] Set Static IP
-  - [ ] [fstab](./fstab)
+  - [ ] fstab - chia disks
   - [ ] Zerotier
   - [ ] Git
   - [ ] Docker compose
 
 - [ ] Run apps in Docker
   - [ ] PiHole
-  - [ ] OBS to Twitch
+  - [ ] ffmpeg to Twitch
   - [ ] Printer Control - PrusaLink and/or OctoPrint
   - [ ] Fishnet @ 2-4 cores
   - [ ] FlexFarmer
