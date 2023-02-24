@@ -17,8 +17,8 @@ Patriot M.2 P300 128GB [Specification](https://www.patriotmemory.com/products/p3
 
 - [ ] Provisioning Ubuntu with [cloudinit](https://cloudinit.readthedocs.io/en/latest/reference/examples.html)
   - [ ] Set Static IP
-  - [ ] fstab - chia disks
   - [ ] Zerotier
+  - [ ] fstab - chia disks
   - [ ] Git
   - [ ] Docker compose
 
