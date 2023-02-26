@@ -1,43 +1,32 @@
 version: "3"
-
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
-  # https://hub.docker.com/r/flexpool/flexfarmer
-  # https://www.flexpool.io/get-started/xch/flexfarmer
-  flexfarmer:
-    container_name: flexfarmer
-    image: flexpool/flexfarmer:latest
-    restart: always
-    environment:
-      - TZ=Europe/Sofia
-    volumes:
-      - /mnt:/mnt/
-      - ${HOME}/flexfarmer/:/config/
-    entrypoint:
-      ["bash", "-c", "/flexfarmer -c /config/config.yml"]
-
-  # https://hub.docker.com/r/niklasf/fishnet
-  # export FISHNET_KEY=<your_key> from https://lichess.org/get-fishnet
-
-  # https://github.com/pi-hole/docker-pi-hole
   pihole:
-    container_name: pihole
+    container_name: PiHole
     image: pihole/pihole:latest
     restart: always
-    environment:
-      - TZ=Europe/Sofia
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      - "8888:80/tcp"
+      - "8080:80/tcp"
+    environment:
+      TZ: "Europe/Sofia"
     volumes:
-      - ${HOME}/pihole/pihole:/etc/pihole
-      - ${HOME}/pihole/etc-dnsmasq.d:/etc/dnsmasq.d
+      - "${HOME}/pihole/etc-pihole/:/etc/pihole/"
+      - "${HOME}/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/"
 
-  fishnet:
-    container_name: fishnet
-    image: niklasf/fishnet:latest
+  # https://github.com/OctoPrint/octoprint-docker
+  octoprint:
+    container_name: OctoPrint
+    image: octoprint/octoprint:latest
     restart: always
     environment:
-      - TZ=Europe/Sofia
-      - CORES=6
-      - KEY=nrWkHmmN
+      ENABLE_MJPG_STREAMER: "true"
+      MJPG_STREAMER_INPUT: "-n -r 1920x1080 -f 30"
+    ports:
+      - "80:80"
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+      - "/dev/video0:/dev/video0"
+    volumes:
+      - "${HOME}/octoprint/:/octoprint/"
