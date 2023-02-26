@@ -2,10 +2,7 @@
 - [X] Order shipped
 - [X] Prusa i3 MK3S+ Full Assembly
 - [X] Firmware build and update
-- [X] Calibration and testing
-- [ ] Print PETG Parts in other (from orange) color
-- [ ] [H0meLab](../H0meLab)
-- [ ] [C922 Pro Stream](../C922-Pro-Stream)
-- [ ] [PrusaLink in Docker](../PrusaLink-Docker)
+- [X] Calibration and Testing
+- [ ] Print PETG Parts in other (from orange) Color
 - [ ] IKEA LACK Enclosure
 - [ ] IKEA SAMLA DryBox
