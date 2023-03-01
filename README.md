@@ -27,11 +27,11 @@ Docker Compose running:
 - [X] Firmware build and update
 - [X] Calibration and Testing
 - [ ] Print [PETG Parts](https://www.printables.com/model/57217-i3-mk3s-printable-parts) in [Urban Grey](https://www.prusa3d.com/product/prusament-petg-urban-grey-1kg/)
-  and [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
+  and [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
 - [ ] IKEA LACK Enclosure
-  in [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
+  in [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
 - [ ] IKEA SAMLA DryBox
-  in [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
+  in [Prusa Orange](https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg/)
 - [ ] Chess boards in [Jet Black](https://www.prusa3d.com/product/prusament-petg-jet-black-1kg/)
   and [Signal White](https://www.prusa3d.com/product/prusament-petg-signal-white-1kg/)
 
@@ -66,7 +66,7 @@ Docker Compose running:
     - [ ] cable chains
     - [ ] cable clips
     - [ ] edge caps
-5. Firmware upgrade via [MFBuilder](https://github.com/B0bbyD1g1tal/Marlin-Firmware-Builder)
+5. Firmware upgrade via [MFBu1lder](https://github.com/B0bbyD1g1tal/MFBu1lder)
 6. Calibration and testing
     - TODO - Make list
 7. Summary
